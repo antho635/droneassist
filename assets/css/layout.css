@@ -500,7 +500,7 @@ section {
 .about .icon-box .description {
   margin-left: 85px;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 1em;
 }
 
 .about .video-box {
@@ -1645,5 +1645,31 @@ section {
     float: none;
     text-align: center;
   }
+}
+
+/*--------------------------------------------------------------
+# Gallerie
+--------------------------------------------------------------*/
+.portfolio #portfolio-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 10px;
+}
+
+#portfolio > div:nth-child(1) > div:nth-child(2) {
+  width: 75%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
 }
 /*# sourceMappingURL=layout.css.map */
