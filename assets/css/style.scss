@@ -23,7 +23,24 @@
     margin: auto;
 }
 
-#contact>div:nth-child(1)>div:nth-child(2)>iframe:nth-child(1) {
+.map-contact {
     border: 0;
-    width: auto;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+
+
+/*--------------------------------------------------------------
+# responsive
+--------------------------------------------------------------*/
+
+
+/* Contact mobile */
+
+@media screen and (max-width:750px) {
+    .map-contact {
+        width: auto;
+    }
 }
