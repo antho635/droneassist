@@ -23,4 +23,9 @@
           justify-content: center;
   margin: auto;
 }
+
+#contact > div:nth-child(1) > div:nth-child(2) > iframe:nth-child(1) {
+  border: 0;
+  width: auto;
+}
 /*# sourceMappingURL=style.css.map */
